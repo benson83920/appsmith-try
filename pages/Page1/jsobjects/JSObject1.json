@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tlanguageChanger: () => {\n\t\t//write code here\n\t\t{{\n    storeValue('lang', appsmith.store.lang === 'en-us' ? 'zh-tw': 'en-us') // Toggle between languages\n\t\t}}\n\t},\n\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page1_JSObject1",
+  "deleted": false,
+  "gitSyncId": "63c8dbf899247d1160b1a4c0_63e0731b2b1429618a33b511"
+}
